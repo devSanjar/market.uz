@@ -1,0 +1,74 @@
+main {
+    min-height: 80vh;
+}
+
+.rating span {
+    margin: 0.1rem;
+}
+
+h1 {
+    font-size: 1.4rem;
+    padding: 0.1rem;
+}
+
+/* NAVBAR */
+
+.nav-bg {
+    background-color: #c00a27
+}
+
+/* PRODUCT SCREEN */
+
+.total-card {
+    background: linear-gradient(180deg, #facd04 50%, #ffc107);
+}
+
+/* CART SCREEN */
+
+.item-price {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(133, 118, 118);
+}
+
+.subtotal-h2 {
+    font-size: 19px;
+    padding: 0.5rem 0;
+}
+
+.checkout-price {
+    font-size: 18px;
+    color: rgb(56, 56, 56);
+}
+
+.total-box {
+    padding-top: 60px;
+}
+
+.frm-cont {
+    justify-content: center;
+}
+
+/* LOGIN SCREEN */
+
+/* CheckoutSteps inside Component */
+
+.checkout-nav {
+    color: #ffc107;
+}
+
+.text-border {
+    /* background: linear-gradient(90deg, #6510ad 60%, #104fad); */
+    background: linear-gradient(50deg, #fdfdfd 0%, #fdf4d6);
+}
+
+.list-item {
+    border-radius: 5px;
+}
+
+.txt-align {
+    align-items: center;
+    justify-content: center;
+}
+
+/********* NEW ONE **************************************************************/
