@@ -38,8 +38,14 @@ const paymentMethod = localStorage.getItem('paymentMethod') ? JSON.parse(localSt
 
 
 const initialState = {
-  cart: { cartItems: cartItemsFromStorage, shippingAddress: shippingAddress, paymentMethod: paymentMethod },
-  userLogin: { userInfo: userInfoFromStorage },
+  cart: {
+    cartItems: cartItemsFromStorage,
+    shippingAddress: shippingAddress,
+    paymentMethod: paymentMethod
+  },
+  userLogin: {
+    userInfo: userInfoFromStorage
+  },
 }
 
 const middleware = [thunk]
@@ -47,7 +53,9 @@ const middleware = [thunk]
 const store = createStore(
   reducer,
   initialState,
-  composeWithDevTools(applyMiddleware(...middleware))
+  composeWithDevTools(
+    applyMiddleware(...middleware)
+  )
 )
 
 export default store
